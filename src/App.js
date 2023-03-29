@@ -1,4 +1,4 @@
-import {Footer,Header} from "./components"
+import {Header} from "./components"
 import { AllRoutes } from "./routes/AllRoutes";
 import './App.css';
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Header/>
         <AllRoutes/>
-      <Footer/>
+      
     </div>
   );
 }
