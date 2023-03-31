@@ -1,3 +1,4 @@
+import {useTitle} from "../hooks/useTitle"
 import {ProductCard} from "../components"
 import img1 from "../assets/1001.jpg"
 import img2 from "../assets/1002.jpg"
@@ -7,6 +8,7 @@ import img5 from "../assets/1005.jpg"
 import img6 from "../assets/1006.jpg"
 
 export const Home = () => {
+  useTitle("Home");
 
   const products = [
     {"id": 1, "name": "Sony Wh-Ch510 Bluetooth Wireless", "price": 149, "image": img1},

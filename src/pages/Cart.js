@@ -1,7 +1,10 @@
 import { CartCard } from "../components"
+import {useTitle} from "../hooks/useTitle"
 import img1 from "../assets/1001.jpg"
 import img2 from "../assets/1002.jpg"
+
 export const Cart = () => {
+  useTitle("Cart");
   const products = [
     {id: 1, "name": "Sony Wh-Ch510 Bluetooth Wireless", "price": 149, "image": img1}, 
     {id: 2, "name": "boAt Rockerz 450", "price": 49, "image": img2,}, 
